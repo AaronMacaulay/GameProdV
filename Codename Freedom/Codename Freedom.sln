@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codename Freedom", "Codename Freedom.csproj", "{91F62FEB-20A6-2BFC-FD98-24DCC97043F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codename Freedom.Editor", "Codename Freedom.Editor.csproj", "{747FCA03-83EE-42EB-1C83-5A4EF3D22398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91F62FEB-20A6-2BFC-FD98-24DCC97043F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F62FEB-20A6-2BFC-FD98-24DCC97043F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F62FEB-20A6-2BFC-FD98-24DCC97043F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F62FEB-20A6-2BFC-FD98-24DCC97043F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747FCA03-83EE-42EB-1C83-5A4EF3D22398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747FCA03-83EE-42EB-1C83-5A4EF3D22398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747FCA03-83EE-42EB-1C83-5A4EF3D22398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747FCA03-83EE-42EB-1C83-5A4EF3D22398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
