@@ -594,9 +594,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 5a78c28b-513f-46ac-86bf-bddae2f2d97a
+  cloudProjectId: f46242ac-b9b1-4f03-9c24-34113697a76d
   projectName: Codename Freedom
-  organizationId: jim-gluftsis
+  organizationId: snowtrooperx
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
