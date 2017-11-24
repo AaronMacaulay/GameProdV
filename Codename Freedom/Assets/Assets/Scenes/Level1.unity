@@ -1514,7 +1514,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42672579dbdf2c8449598d21e2c569ec, type: 2}
+  - {fileID: 2100000, guid: 49e96b77d5093a84d91b1ed81902f41b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5238,7 +5238,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42672579dbdf2c8449598d21e2c569ec, type: 2}
+  - {fileID: 2100000, guid: 49e96b77d5093a84d91b1ed81902f41b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5351,6 +5351,22 @@ Prefab:
     - target: {fileID: 100094, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300030, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
+    - target: {fileID: 2300028, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
+    - target: {fileID: 2300020, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
+    - target: {fileID: 100094, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Name
+      value: EnemySquadLeader
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
@@ -5498,7 +5514,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42672579dbdf2c8449598d21e2c569ec, type: 2}
+  - {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6367,7 +6383,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42672579dbdf2c8449598d21e2c569ec, type: 2}
+  - {fileID: 2100000, guid: 49e96b77d5093a84d91b1ed81902f41b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6667,7 +6683,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42672579dbdf2c8449598d21e2c569ec, type: 2}
+  - {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17202,7 +17218,7 @@ Prefab:
       objectReference: {fileID: 93149990}
     - target: {fileID: 100094, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
       propertyPath: m_Name
-      value: AircraftJetAI (2)
+      value: EnemySquadMember
       objectReference: {fileID: 0}
     - target: {fileID: 2300034, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -17272,6 +17288,18 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 2300030, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
+    - target: {fileID: 2300028, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
+    - target: {fileID: 2300020, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
   m_IsPrefabParent: 0
@@ -17390,7 +17418,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42672579dbdf2c8449598d21e2c569ec, type: 2}
+  - {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21371,7 +21399,7 @@ Prefab:
       objectReference: {fileID: 93149990}
     - target: {fileID: 100094, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
       propertyPath: m_Name
-      value: AircraftJetAI (1)
+      value: EnemySquadMember
       objectReference: {fileID: 0}
     - target: {fileID: 2300034, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -21417,6 +21445,18 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 2300020, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
+    - target: {fileID: 2300028, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
+    - target: {fileID: 2300030, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9da79d591800dd145902196f025bc90c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f7604981ce4c064cbe5284c437c5699, type: 2}
   m_IsPrefabParent: 0
