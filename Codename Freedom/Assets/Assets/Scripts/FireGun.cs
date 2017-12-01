@@ -51,7 +51,7 @@ public class FireGun : MonoBehaviour {
 
 			// Create a bullet and give it forward velocity
 			GameObject newBullet = Instantiate (bulletObject, transform.position, transform.rotation) as GameObject;
-			newBullet.GetComponent<Rigidbody> ().velocity = transform.forward * 500;
+			newBullet.GetComponent<Rigidbody> ().velocity = transform.forward * 750;
 
 			// Reset clock permission to fire
 			nextFire = Time.time + fireRate;
